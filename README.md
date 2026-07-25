@@ -624,7 +624,7 @@ Future improvements:
 # 📸 Screenshots
 
 
-```
+
 <h2>📸 Application Screenshots</h2>
 
 <table>
@@ -692,7 +692,7 @@ Future improvements:
 
 
 </table>
----
+
 
 # 👨‍💻 Developer
 
