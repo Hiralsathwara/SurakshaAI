@@ -1,7 +1,7 @@
 # 🛡️ SurakshaAI
 ## AI-Powered Scam Detection & Cyber Safety Platform
 
-![SurakshaAI Banner](screenshots/banner.png)
+- please check DemoResult Folder to show the result
 
 SurakshaAI is an **AI-powered cybersecurity platform** designed to protect users from online scams, fraud messages, phishing attempts, and digital threats.
 
