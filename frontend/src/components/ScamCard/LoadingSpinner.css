@@ -1,0 +1,104 @@
+/* Loading Container */
+
+.loading-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Spinner */
+
+.spinner {
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto;
+
+    border: 6px solid #334155;
+    border-top: 6px solid #2563EB;
+    border-right: 6px solid #06B6D4;
+
+    border-radius: 50%;
+
+    animation: spin 1s linear infinite;
+
+    position: relative;
+
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.35);
+}
+
+/* Inner Circle */
+
+.spinner::before {
+    content: "";
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    width: 18px;
+    height: 18px;
+
+    transform: translate(-50%, -50%);
+
+    background: #10B981;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.7);
+
+    animation: pulse 1.4s ease-in-out infinite;
+}
+
+/* Rotation */
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Pulse Effect */
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0.7;
+    }
+}
+
+/* Heading */
+
+.loading-container h3 {
+    margin-top: 25px;
+
+    color: #F8FAFC;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* Description */
+
+.loading-container p {
+    margin-top: 8px;
+
+    color: #94A3B8;
+
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}

@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Inter",sans-serif;
+    background:#F4F8FC;
+}
+
+/* ==========================================
+            Register Page
+========================================== */
+
+.register-container{
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #F4F8FC 0%,
+            #EAF4FF 55%,
+            #F1FAF5 100%
+        );
+
+}
+
+
+/* ==========================================
+            Register Card
+========================================== */
+
+.register-card{
+
+    width:100%;
+    max-width:460px;
+
+    background:#FFFFFF;
+
+    border:1px solid #D9E7F5;
+
+    border-radius:24px;
+
+    padding:40px;
+
+    box-shadow:
+        0 15px 35px rgba(11,31,58,.10);
+
+}
+
+
+/* ==========================================
+                Logo
+========================================== */
+
+.logo{
+
+    text-align:center;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#1E4D8F;
+
+}
+
+
+/* ==========================================
+                Title
+========================================== */
+
+.title{
+
+    text-align:center;
+
+    margin:12px 0 30px;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#0B1F3A;
+
+}
+
+
+/* ==========================================
+                Inputs
+========================================== */
+
+.input-field{
+
+    width:100%;
+
+    padding:15px 16px;
+
+    margin-bottom:18px;
+
+    background:#FBFDFF;
+
+    border:1px solid #CFE0F3;
+
+    border-radius:14px;
+
+    color:#0B1F3A;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.3s ease;
+
+}
+
+.input-field::placeholder{
+
+    color:#7B8CA5;
+
+}
+
+.input-field:focus{
+
+    border-color:#00C2FF;
+
+    box-shadow:
+        0 0 0 3px rgba(0,194,255,.15);
+
+}
+
+
+/* ==========================================
+                Register Button
+========================================== */
+
+.register-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1E4D8F,
+            #00C2FF
+        );
+
+    color:#FFFFFF;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+
+}
+
+.register-btn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 10px 20px rgba(0,194,255,.25);
+
+}
+
+.register-btn:active{
+
+    transform:scale(.98);
+
+}
+
+
+/* ==========================================
+                Responsive
+========================================== */
+
+@media(max-width:768px){
+
+    .register-card{
+
+        padding:32px 24px;
+
+    }
+
+    .logo{
+
+        font-size:36px;
+
+    }
+
+    .title{
+
+        font-size:26px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .register-container{
+
+        padding:18px;
+
+    }
+
+    .register-card{
+
+        padding:28px 20px;
+
+        border-radius:20px;
+
+    }
+
+    .logo{
+
+        font-size:32px;
+
+    }
+
+    .title{
+
+        font-size:22px;
+
+    }
+
+    .input-field{
+
+        font-size:15px;
+
+        padding:14px;
+
+    }
+
+    .register-btn{
+
+        font-size:16px;
+
+        padding:14px;
+
+    }
+
+}
+
+
+
+
+
+.home-btn {
+    width:100%;
+    margin:12px 0 0;
+    padding:13px 16px;
+    background:#EAF4FF;
+    color:#1E4D8F;
+    border:1px solid #B9D8F5;
+    border-radius:14px;
+    font-family: "Poppins", sans-serif;
+    font-size:16px;
+    font-weight:600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+    background:#1E4D8F;
+    color:#FFFFFF;
+    border-color:#1E4D8F;
+    transform:translateY(-1px);
+}

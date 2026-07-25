@@ -1,0 +1,150 @@
+/* ==========================================
+   Financial Literacy - SurakshaAI Theme
+========================================== */
+
+.financial-literacy-page {
+    min-height: 100vh;
+    padding: 24px;
+    background: linear-gradient(135deg, #f4f8fc 0%, #eaf4ff 50%, #f1faf5 100%);
+    color: #0b1f3a;
+}
+
+.financial-literacy-shell {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.financial-hero {
+    background: linear-gradient(135deg, #0b1f3a 0%, #1e4d8f 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    box-shadow: 0 15px 35px rgba(11, 31, 58, 0.25);
+}
+
+.financial-hero h1 {
+    margin: 6px 0 10px;
+    font-size: 2rem;
+    letter-spacing: -0.5px;
+}
+
+.eyebrow {
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #00c2ff;
+}
+
+.back-button {
+    background: white;
+    color: #0b1f3a;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.back-button:hover {
+    background: #00c2ff;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 22px;
+    padding: 26px;
+    box-shadow: 0 10px 30px rgba(11, 31, 58, 0.1);
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.category-card {
+    border: 1px solid #d8e6f5;
+    background: linear-gradient(135deg, #ffffff, #f5faff);
+    border-radius: 18px;
+    padding: 16px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    color: #0b1f3a;
+    transition: all 0.3s ease;
+}
+
+.category-card:hover {
+    border-color: #00c2ff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 194, 255, 0.15);
+}
+
+.category-card.active {
+    background: linear-gradient(135deg, #0b1f3a, #1e4d8f);
+    color: white;
+    border-color: #0b1f3a;
+}
+
+.category-icon {
+    font-size: 1.5rem;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.faq-item {
+    border: 1px solid #dde8f5;
+    border-radius: 18px;
+    padding: 16px 18px;
+    background: #fbfdff;
+    transition: 0.3s ease;
+}
+
+.faq-item:hover {
+    border-color: #00c2ff;
+    box-shadow: 0 8px 20px rgba(0, 194, 255, 0.12);
+}
+
+.faq-item h3 {
+    margin: 0 0 8px;
+    color: #0b1f3a;
+}
+
+.faq-item p {
+    margin: 0;
+    line-height: 1.7;
+    color: #52657d;
+}
+
+@media (max-width: 768px) {
+    .financial-literacy-page {
+        padding: 16px;
+    }
+
+    .financial-hero {
+        flex-direction: column;
+        padding: 22px;
+    }
+
+    .financial-hero h1 {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,378 @@
+/* ==========================================
+        Detector Page - SurakshaAI Theme
+========================================== */
+
+
+/* Page */
+
+.detector-page {
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    padding:40px 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #F4F8FC 0%,
+            #EAF4FF 55%,
+            #F1FAF5 100%
+        );
+
+    font-family:"Inter",sans-serif;
+
+}
+
+
+/* ==========================================
+        Detector Card
+========================================== */
+
+.detector-container {
+
+    width:100%;
+
+    max-width:900px;
+
+    background:#FFFFFF;
+
+    border:1px solid #D9E7F5;
+
+    border-radius:24px;
+
+    padding:40px;
+
+    box-shadow:
+        0 15px 35px rgba(11,31,58,.10);
+
+}
+
+
+/* ==========================================
+        Title
+========================================== */
+
+.detector-title {
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    color:#1E4D8F;
+
+}
+
+
+/* ==========================================
+        Subtitle
+========================================== */
+
+.detector-subtitle {
+
+    text-align:center;
+
+    font-size:1rem;
+
+    color:#52657D;
+
+    margin-bottom:35px;
+
+    line-height:1.6;
+
+}
+
+
+/* ==========================================
+        Error Box
+========================================== */
+
+.error-box {
+
+    margin-top:20px;
+
+    padding:16px;
+
+    background:#FEF2F2;
+
+    border:1px solid #FCA5A5;
+
+    color:#B91C1C;
+
+    border-radius:14px;
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================
+        Text Area
+========================================== */
+
+textarea {
+
+    width:100%;
+
+    min-height:180px;
+
+    padding:18px;
+
+    font-size:16px;
+
+    background:#FBFDFF;
+
+    color:#0B1F3A;
+
+    border-radius:15px;
+
+    border:1px solid #CFE0F3;
+
+    resize:none;
+
+    outline:none;
+
+    transition:.3s ease;
+
+}
+
+
+textarea::placeholder{
+
+    color:#7B8CA5;
+
+}
+
+
+textarea:focus {
+
+    border-color:#00C2FF;
+
+    box-shadow:
+        0 0 0 4px rgba(0,194,255,.15);
+
+}
+
+
+/* ==========================================
+        Button
+========================================== */
+
+button {
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1E4D8F,
+            #00C2FF
+        );
+
+    color:white;
+
+    font-size:18px;
+
+    font-family:"Poppins",sans-serif;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+
+}
+
+
+button:hover {
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 10px 20px rgba(0,194,255,.25);
+
+}
+
+
+button:disabled {
+
+    opacity:.7;
+
+    cursor:not-allowed;
+
+}
+
+
+/* ==========================================
+        Prediction Result Card
+========================================== */
+
+.prediction-card {
+
+    margin-top:25px;
+
+    padding:22px;
+
+    background:#F5FAFF;
+
+    border:1px solid #D8E6F5;
+
+    border-radius:18px;
+
+    animation:fadeIn .4s ease;
+
+}
+
+
+.prediction-card h3{
+
+    color:#1E4D8F;
+
+    margin-bottom:12px;
+
+}
+
+
+.prediction-card p{
+
+    color:#52657D;
+
+    line-height:1.7;
+
+}
+
+
+/* ==========================================
+        AI Status
+========================================== */
+
+.ai-status {
+
+    margin-top:25px;
+
+    text-align:center;
+
+    color:#1E4D8F;
+
+    font-weight:600;
+
+}
+
+
+/* ==========================================
+        Animation
+========================================== */
+
+@keyframes fadeIn {
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* ==========================================
+        Responsive
+========================================== */
+
+@media(max-width:768px){
+
+    .detector-container{
+
+        padding:25px;
+
+        border-radius:20px;
+
+    }
+
+
+    .detector-title{
+
+        font-size:28px;
+
+    }
+
+
+    textarea{
+
+        min-height:140px;
+
+    }
+
+}
+
+
+.detector-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+
+.back-btn {
+
+    background: transparent;
+
+    color: #94A3B8;
+
+    border: 1px solid #334155;
+
+    border-radius: 12px;
+
+    padding: 10px 18px;
+
+    font-family: "Poppins", sans-serif;
+
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+
+}
+
+
+.back-btn:hover {
+
+    background: #2563EB;
+
+    color: #FFFFFF;
+
+    border-color: #2563EB;
+
+}

@@ -1,0 +1,588 @@
+/* ==========================================================
+   SURAKSHA AI - HISTORY PAGE
+   AI Security Light Theme
+========================================================== */
+
+
+/* ==========================
+   PAGE
+========================== */
+
+.history-page {
+
+    max-width:900px;
+
+    margin:40px auto;
+
+    padding:20px;
+
+    min-height:100vh;
+
+    font-family:"Inter",sans-serif;
+
+    background:
+        linear-gradient(
+            135deg,
+            #F4F8FC 0%,
+            #EAF4FF 55%,
+            #F1FAF5 100%
+        );
+
+}
+
+
+
+/* ==========================
+   HEADING
+========================== */
+
+
+.history-page h1 {
+
+    margin-bottom:30px;
+
+    text-align:center;
+
+    color:#1E4D8F;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+
+
+/* ==========================
+   TOOLBAR
+========================== */
+
+
+.history-toolbar {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+/* Search */
+
+.search-box {
+
+    flex:1;
+
+    padding:16px 20px;
+
+    background:white;
+
+    border:1px solid #D8E6F5;
+
+    border-radius:14px;
+
+    color:#0B1F3A;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+
+
+.search-box::placeholder {
+
+    color:#94A3B8;
+
+}
+
+
+
+.search-box:focus {
+
+    border-color:#00C2FF;
+
+    box-shadow:
+        0 0 0 4px rgba(0,194,255,.15);
+
+}
+
+
+
+/* Filter */
+
+
+.filter-container {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.filter-container label {
+
+    color:#0B1F3A;
+
+    font-weight:600;
+
+}
+
+
+
+.filter-select {
+
+    width:150px;
+
+    padding:12px 14px;
+
+    background:white;
+
+    color:#1E4D8F;
+
+    border:1px solid #D8E6F5;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    outline:none;
+
+}
+
+
+
+.filter-select:focus {
+
+    border-color:#00C2FF;
+
+}
+
+
+
+/* ==========================
+   HISTORY CARD
+========================== */
+
+
+.history-card {
+
+    background:white;
+
+    border:1px solid #D9E7F5;
+
+    border-radius:22px;
+
+    padding:24px;
+
+    margin-bottom:24px;
+
+    box-shadow:
+
+        0 10px 30px rgba(11,31,58,.10);
+
+    transition:.3s ease;
+
+}
+
+
+
+.history-card:hover {
+
+    transform:translateY(-4px);
+
+    border-color:#00C2FF;
+
+    box-shadow:
+
+        0 15px 35px rgba(0,194,255,.18);
+
+}
+
+
+
+/* Card Title */
+
+
+.history-card h3 {
+
+    margin-bottom:18px;
+
+    color:#1E4D8F;
+
+    font-family:"Poppins",sans-serif;
+
+    font-weight:600;
+
+}
+
+
+
+/* Card Text */
+
+
+.history-card p {
+
+    margin:10px 0;
+
+    line-height:1.7;
+
+    color:#52657D;
+
+    font-size:15px;
+
+}
+
+
+
+.history-card p strong {
+
+    color:#00A8E8;
+
+    font-weight:600;
+
+}
+
+
+
+/* ==========================
+   STATUS COLORS
+========================== */
+
+
+.safe-text {
+
+    color:#16A34A;
+
+    font-weight:700;
+
+}
+
+
+
+.warning-text {
+
+    color:#D97706;
+
+    font-weight:700;
+
+}
+
+
+
+.danger-text {
+
+    color:#DC2626;
+
+    font-weight:700;
+
+}
+
+
+
+/* ==========================
+   DELETE BUTTON
+========================== */
+
+
+.delete-btn {
+
+    margin-top:15px;
+
+    padding:10px 18px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#EF4444;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+
+.delete-btn:hover {
+
+    background:#DC2626;
+
+    transform:translateY(-2px);
+
+}
+
+
+
+/* ==========================
+   PAGINATION
+========================== */
+
+
+.pagination {
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    margin-top:35px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.page-btn {
+
+    background:
+        linear-gradient(
+            135deg,
+            #1E4D8F,
+            #00C2FF
+        );
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+
+.page-btn:hover:not(:disabled) {
+
+    transform:translateY(-2px);
+
+}
+
+
+
+.page-btn:disabled {
+
+    background:#CBD5E1;
+
+    cursor:not-allowed;
+
+}
+
+
+
+.page-info {
+
+    color:#0B1F3A;
+
+    font-weight:600;
+
+}
+
+
+
+.page-numbers {
+
+    display:flex;
+
+    gap:8px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.page-number {
+
+    width:40px;
+
+    height:40px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:white;
+
+    color:#1E4D8F;
+
+    border:1px solid #D8E6F5;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+
+.page-number:hover {
+
+    background:#EAF8FF;
+
+    border-color:#00C2FF;
+
+}
+
+
+
+.page-number.active {
+
+    background:#1E4D8F;
+
+    color:white;
+
+}
+
+
+
+/* ==========================
+   RECORD COUNTER
+========================== */
+
+
+.records-counter {
+
+    color:#52657D;
+
+    margin-bottom:20px;
+
+    font-size:15px;
+
+    font-weight:500;
+
+}
+
+
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+
+@media(max-width:768px){
+
+
+    .history-page {
+
+        padding:15px;
+
+    }
+
+
+    .history-card {
+
+        padding:18px;
+
+    }
+
+
+    .history-page h1 {
+
+        font-size:28px;
+
+    }
+
+
+    .history-toolbar {
+
+        flex-direction:column;
+
+        align-items:stretch;
+
+    }
+
+
+    .filter-select {
+
+        width:100%;
+
+    }
+
+
+}
+
+
+/* ------- */
+.history-header {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    margin-bottom:20px;
+
+}
+
+
+.back-btn {
+
+    width:fit-content;
+
+    background:transparent;
+
+    color:#94A3B8;
+
+    border:1px solid #334155;
+
+    border-radius:12px;
+
+    padding:10px 18px;
+
+    font-family:"Poppins", sans-serif;
+
+    font-weight:500;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+
+}
+
+
+.back-btn:hover {
+
+    background:#2563EB;
+
+    color:#FFFFFF;
+
+    border-color:#2563EB;
+
+}

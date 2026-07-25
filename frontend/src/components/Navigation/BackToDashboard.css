@@ -1,0 +1,43 @@
+.page-back-button {
+    width:auto !important;
+    min-height:40px;
+    margin:0 !important;
+    padding:9px 14px !important;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    border:1px solid #B9D8F5 !important;
+    border-radius:10px !important;
+    background:#FFFFFF !important;
+    color:#1E4D8F !important;
+    font-family:"Inter",sans-serif !important;
+    font-size:.9rem !important;
+    font-weight:700 !important;
+    line-height:1.2;
+    white-space:nowrap;
+    cursor:pointer;
+    box-shadow:0 3px 10px rgba(11,31,58,.10);
+    transition:background .2s ease, border-color .2s ease, color .2s ease, transform .2s ease;
+}
+
+.page-back-button:hover {
+    background:#EAF4FF !important;
+    border-color:#4BA9E8 !important;
+    color:#123B73 !important;
+    transform:translateY(-1px) !important;
+    box-shadow:0 5px 14px rgba(11,31,58,.14) !important;
+}
+
+.page-back-button:focus-visible {
+    outline:3px solid rgba(0,194,255,.35);
+    outline-offset:2px;
+}
+
+@media (max-width:600px) {
+    .page-back-button {
+        min-height:36px;
+        padding:8px 11px !important;
+        font-size:.82rem !important;
+    }
+}
