@@ -628,27 +628,28 @@ Future improvements:
 <h2>📸 Application Screenshots</h2>
 
 <table>
-
-<td>
-<img src="DemoResults/landingpage1.png" width="400"/>
-<p>Landing Page</p>
-</td>
-</tr>
 <tr>
 <td>
-<img src="DemoResults/login.png" width="400"/>
-<p>Login Page</p>
+<img src="DemoResults/landingpage1.png" width="400"/>
+<p align="center">Landing Page</p>
 </td>
+
+<td>
+<img src="DemoResults/login.png" width="400"/>
+<p align="center">Login Page</p>
+</td>
+</tr>
+
 
 <tr>
 <td>
 <img src="DemoResults/register.png" width="400"/>
-<p>Registration Page</p>
+<p align="center">Registration Page</p>
 </td>
 
 <td>
 <img src="DemoResults/dashboard.png" width="400"/>
-<p>Dashboard</p>
+<p align="center">Dashboard</p>
 </td>
 </tr>
 
@@ -656,40 +657,40 @@ Future improvements:
 <tr>
 <td>
 <img src="DemoResults/scamdetection.png" width="400"/>
-<p>AI Scam Detector</p>
+<p align="center">AI Scam Detector</p>
 </td>
 
 <td>
 <img src="DemoResults/ChatBot.png" width="400"/>
-<p>AI Chatbot</p>
+<p align="center">AI Chatbot</p>
 </td>
 </tr>
 
+
+<tr>
 <td>
 <img src="DemoResults/voiceagent.png" width="400"/>
-<p>Voice Agent</p>
+<p align="center">Voice Agent</p>
 </td>
-</tr>
 
 <td>
 <img src="DemoResults/scanimages.png" width="400"/>
-<p>Scan Screenshots</p>
+<p align="center">OCR Screenshot Scanner</p>
 </td>
 </tr>
 
+
+<tr>
 <td>
 <img src="DemoResults/emergencyhelp.png" width="400"/>
-<p>Emergency Help</p>
+<p align="center">Emergency Help</p>
 </td>
-</tr>
 
 <td>
 <img src="DemoResults/financiallearning.png" width="400"/>
-<p>Financial Learning</p>
+<p align="center">Financial Learning</p>
 </td>
 </tr>
-
-
 
 </table>
 
